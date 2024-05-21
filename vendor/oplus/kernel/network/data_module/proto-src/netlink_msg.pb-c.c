@@ -855,7 +855,7 @@ const ProtobufCMessageDescriptor netlink__proto__request_set_dpi_uid__descriptor
   (ProtobufCMessageInit) netlink__proto__request_set_dpi_uid__init,
   NULL,NULL,NULL    /* reserved[123] */
 };
-static const ProtobufCFieldDescriptor netlink__proto__request_get_dpi_stream_speed__field_descriptors[4] =
+static const ProtobufCFieldDescriptor netlink__proto__request_get_dpi_stream_speed__field_descriptors[3] =
 {
   {
     "ifidx",
@@ -893,29 +893,16 @@ static const ProtobufCFieldDescriptor netlink__proto__request_get_dpi_stream_spe
     0,             /* flags */
     0,NULL,NULL    /* reserved1,reserved2, etc */
   },
-  {
-    "limited_stream_set",
-    4,
-    PROTOBUF_C_LABEL_REPEATED,
-    PROTOBUF_C_TYPE_UINT64,
-    offsetof(Netlink__Proto__RequestGetDpiStreamSpeed, n_limited_stream_set),
-    offsetof(Netlink__Proto__RequestGetDpiStreamSpeed, limited_stream_set),
-    NULL,
-    NULL,
-    0,             /* flags */
-    0,NULL,NULL    /* reserved1,reserved2, etc */
-  },
 };
 static const unsigned netlink__proto__request_get_dpi_stream_speed__field_indices_by_name[] = {
   0,   /* field[0] = ifidx */
-  3,   /* field[3] = limited_stream_set */
   2,   /* field[2] = speed_size */
   1,   /* field[1] = uid */
 };
 static const ProtobufCIntRange netlink__proto__request_get_dpi_stream_speed__number_ranges[1 + 1] =
 {
   { 1, 0 },
-  { 0, 4 }
+  { 0, 3 }
 };
 const ProtobufCMessageDescriptor netlink__proto__request_get_dpi_stream_speed__descriptor =
 {
@@ -925,7 +912,7 @@ const ProtobufCMessageDescriptor netlink__proto__request_get_dpi_stream_speed__d
   "Netlink__Proto__RequestGetDpiStreamSpeed",
   "netlink.proto",
   sizeof(Netlink__Proto__RequestGetDpiStreamSpeed),
-  4,
+  3,
   netlink__proto__request_get_dpi_stream_speed__field_descriptors,
   netlink__proto__request_get_dpi_stream_speed__field_indices_by_name,
   1,  netlink__proto__request_get_dpi_stream_speed__number_ranges,
@@ -983,7 +970,7 @@ const ProtobufCMessageDescriptor netlink__proto__request_set_log_steam_ip__descr
   (ProtobufCMessageInit) netlink__proto__request_set_log_steam_ip__init,
   NULL,NULL,NULL    /* reserved[123] */
 };
-static const ProtobufCFieldDescriptor netlink__proto__request_get_all_uid_speed__field_descriptors[3] =
+static const ProtobufCFieldDescriptor netlink__proto__request_get_all_uid_speed__field_descriptors[2] =
 {
   {
     "ifidx",
@@ -1009,28 +996,15 @@ static const ProtobufCFieldDescriptor netlink__proto__request_get_all_uid_speed_
     0,             /* flags */
     0,NULL,NULL    /* reserved1,reserved2, etc */
   },
-  {
-    "limited_uid_set",
-    3,
-    PROTOBUF_C_LABEL_REPEATED,
-    PROTOBUF_C_TYPE_UINT64,
-    offsetof(Netlink__Proto__RequestGetAllUidSpeed, n_limited_uid_set),
-    offsetof(Netlink__Proto__RequestGetAllUidSpeed, limited_uid_set),
-    NULL,
-    NULL,
-    0,             /* flags */
-    0,NULL,NULL    /* reserved1,reserved2, etc */
-  },
 };
 static const unsigned netlink__proto__request_get_all_uid_speed__field_indices_by_name[] = {
   0,   /* field[0] = ifidx */
-  2,   /* field[2] = limited_uid_set */
   1,   /* field[1] = speed_size */
 };
 static const ProtobufCIntRange netlink__proto__request_get_all_uid_speed__number_ranges[1 + 1] =
 {
   { 1, 0 },
-  { 0, 3 }
+  { 0, 2 }
 };
 const ProtobufCMessageDescriptor netlink__proto__request_get_all_uid_speed__descriptor =
 {
@@ -1040,7 +1014,7 @@ const ProtobufCMessageDescriptor netlink__proto__request_get_all_uid_speed__desc
   "Netlink__Proto__RequestGetAllUidSpeed",
   "netlink.proto",
   sizeof(Netlink__Proto__RequestGetAllUidSpeed),
-  3,
+  2,
   netlink__proto__request_get_all_uid_speed__field_descriptors,
   netlink__proto__request_get_all_uid_speed__field_indices_by_name,
   1,  netlink__proto__request_get_all_uid_speed__number_ranges,
