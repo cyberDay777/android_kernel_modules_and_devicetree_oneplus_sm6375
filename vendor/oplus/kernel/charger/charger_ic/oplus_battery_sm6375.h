@@ -30,10 +30,10 @@
 #include "../../../../../kernel_platform/msm-kernel/drivers/usb/typec/pd/inc/tcpm.h"
 #include "../../../../../kernel_platform/msm-kernel/drivers/usb/typec/pd/inc/tcpm_pd.h"
 #else
-#include "../../../../../../kernel/msm-5.4/drivers/power/supply/qcom/storm-watch.h"
-#include "../../../../../../kernel/msm-5.4/drivers/power/supply/qcom/battery.h"
-#include "../../../../../../kernel/msm-5.4/drivers/usb/typec/tcpc/inc/tcpci.h"
-#include "../../../../../../kernel/msm-5.4/drivers/usb/typec/tcpc/inc/tcpm.h"
+#include "../../../../../kernel/msm-5.4/drivers/power/supply/qcom/storm-watch.h"
+#include "../../../../../kernel/msm-5.4/drivers/power/supply/qcom/battery.h"
+#include "../../../../../kernel/msm-5.4/drivers/usb/typec/tcpc/inc/tcpci.h"
+#include "../../../../../kernel/msm-5.4/drivers/usb/typec/tcpc/inc/tcpm.h"
 #endif
 #include <linux/iio/iio.h>
 #include <dt-bindings/iio/qti_power_supply_iio.h>
