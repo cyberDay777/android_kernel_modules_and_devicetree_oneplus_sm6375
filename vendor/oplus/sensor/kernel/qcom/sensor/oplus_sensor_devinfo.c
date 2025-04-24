@@ -1610,4 +1610,3 @@ arch_initcall(oplus_devinfo_init);
 
 MODULE_DESCRIPTION("sensor devinfo");
 MODULE_LICENSE("GPL");
-
